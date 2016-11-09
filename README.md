@@ -6,6 +6,7 @@ Se puede adaptar fácilmente para otros satélites.
 Es fruto de la curiosidad para generar un sistema totalmente automatizado que reporte información útil via APRS a la comunidad de Radioaficionados en Uruguay.
 
 Pasos del Proceso:
+
 1) Se debe obtener el TLE actualizado mediante un cron que se ejecute una vez al día.
 Ej. 59 0 * * * /home/pi/satupdt.sh >/dev/null 2>&1
 Para esto se emplea el script satupdt.sh
